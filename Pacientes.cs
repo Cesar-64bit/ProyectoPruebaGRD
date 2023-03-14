@@ -45,4 +45,49 @@ public class Paciente {
         get {return this.NSS;}
         set {this.NSS = value;}
     }
+
+    public string? ApellidoPaterno {
+        get {return this.apellidoPaterno;}
+        set {this.apellidoPaterno = value;}
+    }
+
+     public string? ApellidoMaterno {
+        get {return this.apellidoMaterno;}
+        set {this.apellidoMaterno = value;}
+    }
+
+    public string? Enfermedad {
+        get {return this.enfermedad;}
+        set {this.enfermedad = value;}
+    }
+
+    public int Medico {
+        get {return this.medico;}
+        set {this.medico = value;}
+    }
+
+    public string? Genero {
+        get {return this.genero;}
+        set {this.genero = value;}
+    }
+
+    public int Cama {
+        get {return this.cama;}
+        set {this.cama = value;}
+    }
+
+    public DateTime FechaIngreso {
+        get {return this.fechaIngreso;}
+        set {this.fechaIngreso = value;}
+    }
+
+    public DateTime FechaNacimiento {
+        get {return this.fechaNacimiento;}
+        set {this.fechaNacimiento = value;}
+    }
+
+    public int Estado {
+        get {return this.estado;}
+        set {this.estado = value;}
+    }
 }
